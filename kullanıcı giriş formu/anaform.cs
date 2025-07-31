@@ -15,7 +15,8 @@ namespace kullanıcı_giriş_formu
         public Anaform(string kullanıcıadı)
         {
             InitializeComponent();
-            lblselamla.Text = "hoş geldins" + kullanıcıadı;
+            lblselamla.Text = kullanıcıadı;
+            lblselamla.Text = "hoş geldiniz" + kullanıcıadı;
         }
 
         private void Anaform_Load(object sender, EventArgs e)

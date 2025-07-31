@@ -28,24 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblselamla = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // lblselamla
             // 
-            this.lblselamla.AutoSize = true;
-            this.lblselamla.Location = new System.Drawing.Point(47, 32);
-            this.lblselamla.Name = "lblselamla";
-            this.lblselamla.Size = new System.Drawing.Size(52, 13);
-            this.lblselamla.TabIndex = 0;
-            this.lblselamla.Text = "lblselamla";
             // 
             // Anaform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(759, 301);
-            this.Controls.Add(this.lblselamla);
             this.Name = "Anaform";
             this.Text = "Anaform";
             this.Load += new System.EventHandler(this.Anaform_Load);
@@ -56,6 +47,5 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblselamla;
     }
 }
