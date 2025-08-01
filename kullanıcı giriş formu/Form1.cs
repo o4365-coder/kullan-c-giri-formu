@@ -39,7 +39,11 @@ namespace kullanıcı_giriş_formu
             string şifre = txtşifre.Text;
             string kullanıcıadı = null;
             if (kullanıadı != "oğuzhan" && şifre != "1234")
-            {
+            { 
+            //windows form içerisinde nasıl kullanıcıya bir popup gösteririz bunu çok ufak bir şekilde inceleyim )
+}           //ayrı bir konu olarak eğitim içerisinde detaylı bulacaksınız.
+     
+    MessageBox.Show ("Hatalı kullanıcı bilgileri")
             }
             else
                 (
